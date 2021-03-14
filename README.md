@@ -45,7 +45,7 @@ Arquitectura de directorio:
 
 Instalamos babel y webpack.
 
-`npm install @babel/core babel-loader html-webpack-plugin webpack@4 webpack-cli@3 webpack-dev-server --save-dev`
+`npm install @babel/core babel-loader html-webpack-plugin@4 webpack@4 webpack-cli@3 webpack-dev-server --save-dev`
 
 Dependencias:
 
