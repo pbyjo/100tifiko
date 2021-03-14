@@ -88,3 +88,35 @@ agregamos dos scripts en nuestro JSON
 
 `npm cache clean --force` // podemos limpiar el cache de nuestro node npm
 
+Luego de nuestro prework y configuración de estacion de trabajo generamos nuestro primer template `Home.js`
+
+``` js
+	const Home = () => {
+    const view = `
+    
+        <section class="Characters" >
+
+            <article class="Characters__item"> 
+
+                <a href="#/1/" > 
+                    <img src="image" alt="name">
+                    <h2>Name</h2>
+                </a>
+
+            </article>
+
+        </section>
+    
+    `;
+
+    return view;
+	};
+
+	export default Home;
+```
+
+#### Crear template de personajes
+
+ >Clase 6
+
+Creamos Character.js | Header.js como componentes dentro de src
