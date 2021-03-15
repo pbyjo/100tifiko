@@ -84,7 +84,7 @@ Creamos en nuestra raíz un .gitignore para ignorar nuestra carpeta de node_modu
 agregamos dos scripts en nuestro JSON
 
 `"build" : "webpack --modo production"` // empaquetamiento
-`"start" : "webpack-dev-server --modo development"` // server
+`"start" : "webpack-dev-server --open --mode development"` // server
 
 `npm cache clean --force` // podemos limpiar el cache de nuestro node npm
 
@@ -120,3 +120,11 @@ Luego de nuestro prework y configuración de estacion de trabajo generamos nuest
  >Clase 6
 
 Creamos Character.js | Header.js como componentes dentro de src
+
+#### Crear página de error 404
+
+ >Clase 7
+
+Lanzamos nuestro comando npm run start para crear nuestro server local
+
+
