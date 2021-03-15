@@ -127,4 +127,10 @@ Creamos Character.js | Header.js como componentes dentro de src
 
 Lanzamos nuestro comando npm run start para crear nuestro server local
 
+#### Crear rutas del sitio
+
+ >Clase 8
+
+Creamos en nuestra carpeta de routes index.js que nos permite hacer render a nuestro archivo html
+
 
