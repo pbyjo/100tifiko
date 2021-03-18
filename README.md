@@ -194,6 +194,17 @@ Código : `var hashV = window.location.hash`
     content.innerHTML = await render();
 ```
 
+### M4 - Fetch Data
+
+#### Obtener personajes con la función de llamado a la API
+
+ >Clase 11
+
+en `getData.js` creamos nuestra funcion de llamado y en Home hacemos el llamado de esa funcion para crear los datos dinámicos e imprimirlos dentro de nuestas etiquetas en `Home.js`
+
+
+
+
 
 
 
