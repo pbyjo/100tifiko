@@ -202,6 +202,12 @@ Código : `var hashV = window.location.hash`
 
 en `getData.js` creamos nuestra funcion de llamado y en Home hacemos el llamado de esa funcion para crear los datos dinámicos e imprimirlos dentro de nuestas etiquetas en `Home.js`
 
+#### Conectar la función con la descripción de personajes
+
+ >Clase 12
+
+En character.js usamos getData para traer los datos de la api e imprimir la informacion de cada personaje en nuestro html template section.
+
 
 
 
