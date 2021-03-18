@@ -3,7 +3,7 @@
 let hashV = window.location.hash;
 
 const getHash = () => 
-    hashV.slice(1).toLocalLowerCase().split('/')[1] || '/'; // _> obtenemos ['','1','']
+    hashV.slice(1).toLocaleLowerCase().split('/')[1] || '/'; // _> obtenemos ['','1','']
 
 export default getHash;
 

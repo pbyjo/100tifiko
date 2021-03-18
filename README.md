@@ -146,7 +146,7 @@ creamos un utils llamado getHash para trabajar con el directorio a partir de # e
     let hashV = window.location.hash;
 
     const getHash = () => 
-        hashV.slice(1).toLocalLowerCase().split('/')[1] || '/'; // _> obtenemos ['','1','']
+        hashV.slice(1).toLocaleLowerCase().split('/')[1] || '/'; // _> obtenemos ['','1','']
 
     export default getHash;
     
@@ -181,6 +181,18 @@ Código : `window.location.hash`
 Sería práctico almacenarlo en una variable si lo vas a utilizar.
 Código : `var hashV = window.location.hash`
 
+#### Implementar y probar las conexiones
+
+ >Clase 10
+
+``` js 
+// Clase 10
+    let hash = getHash();
+    let route = await resolveRoutes(hash);
+
+    let render = routes[route] ? routes[route] : Error404;
+    content.innerHTML = await render();
+```
 
 
 
