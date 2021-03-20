@@ -8,9 +8,9 @@ const Character = async () => {
     const character = await getData(id);
     const view = `
     
-        <section class="Charaters__inner">
+        <section class="charaters__inner">
 
-            <article class = "Characters--card">
+            <article class = "character--card">
                 <img src="${character.image}" alt="${character.name}">
                 <h2> ${character.name} </h2>
             </article>

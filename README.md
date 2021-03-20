@@ -208,6 +208,31 @@ en `getData.js` creamos nuestra funcion de llamado y en Home hacemos el llamado 
 
 En character.js usamos getData para traer los datos de la api e imprimir la informacion de cada personaje en nuestro html template section.
 
+### M5 - Deploy
+
+#### Configurar CSS para administrar elementos visuales
+
+ >Clase 13
+
+Instalamos un complemento que necesita webpack para trabajar con los estilos que estamos generando
+
+`npm install copy-webpack-plugin@5.1.1 --save-dev`
+
+añadimos el tag en nuestra configuracion de plugins en webpack
+
+``` js
+    new CopyWebpackPlugin([
+            {
+                from : './src/styles/style.css',
+                to : ''
+            }
+        ])
+```
+
+
+
+
+
 
 
 
