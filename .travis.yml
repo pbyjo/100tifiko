@@ -5,7 +5,7 @@ cache:
     - ~/.npm
 
 node_js:
-  - '13'  // Version estable de node
+  - '13'
 
 git:
   depth: 3
@@ -18,7 +18,7 @@ deploy:
   edge: true
   skip-cleanup: true
   keep-history: true
-  github-token: $Github_token //Como lo configuramos en travis CI
+  github-token: $Github_token
   local-dir: dist/
   target-branch: gh-pages
   commit_message: 'Deploy Successfully'
