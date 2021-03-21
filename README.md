@@ -239,6 +239,25 @@ Generamos un token en github y lo pegamos en el repositorio dentro de travis CI
 
 generamos un archivo en nuestra raiz llamado `.travis.yml` donde guardamos toda la configuración para este.
 
+#### Crear un script para enviar a producción
+
+ >Clase 15
+
+Necesitamos habilitar el repo en travis para generar el primer trigger que seria el compilado de nuestra aplicación
+
+vamos a **settings** en nuestra cuenta de travis, buscamos nuestra repo que estamos trabajando y la habilitamos
+
+abrimos y activamos la opción de trigger build desde la rama que trabajamos y esperamos a que compile.
+
+Finalmente genera el deploy y manda los cambios a el repositorio en github creando una nueva rama `gh-pages` con los archivos finales.
+
+Enlaces de interes:
+
+`https://pbyjo.github.io/100tifiko/`
+`https://platzi.com/clases/spa-javascript/`
+
+
+
 
 
 
