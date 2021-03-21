@@ -235,6 +235,10 @@ añadimos el tag en nuestra configuracion de plugins en webpack
 
 Ahora necesitamos publicar nuestro proyecto. Para ello vamos a trabajar con Travis CI, esta herramienta nos permite generar un script que va a estar conectado a nuestra aplicacion de nuestro repo para que hagamos integración continua. Significa que cuando este detecte un cambio sobre la rama que se este trabajando pueda generar un compilado sobre un servidor en la nube y mandar estos cambios de forma automatizada sin necesidad de subirlos manualmente.
 
+Generamos un token en github y lo pegamos en el repositorio dentro de travis CI
+
+generamos un archivo en nuestra raiz llamado `.travis.yml` donde guardamos toda la configuración para este.
+
 
 
 
