@@ -6,7 +6,7 @@ const Header = () => {
             <div class="header--logo">
 
                 <h1>
-                    <a href="/">
+                    <a href="https://pbyjo.github.io/100tifiko/">
                         100tifi.co
                     </a>
 
