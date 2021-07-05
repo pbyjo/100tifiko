@@ -1,9 +1,6 @@
 /* const getHash = () => location.hash */ // -> valor por defecto #/1/
 
-let hashV = window.location.hash;
-
-const getHash = () => 
-    hashV.slice(1).toLocaleLowerCase().split('/')[1] || '/'; // _> obtenemos ['','1','']
+const getHash = () => location.hash.slice(1).toLocaleLowerCase().split('/')[1] || '/'; // _> obtenemos ['','1','']
 
 export default getHash;
 
